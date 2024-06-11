@@ -1,20 +1,20 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title> eduNiger APP </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content [fullscreen]="true" class="home-content">
+  <img
+    alt="Learning-Management"
+    src="https://avatarms.com/wp-content/uploads/Learning-Management@2x-1024x760-1.png"
+  />
+  <ion-card>
+    <ion-card-content color="#aad7fc">
+      Au cœur du Niger, une passion indéfectible pour l'éducation résonne
+      puissamment, une soif insatiable de connaissance et un desir ardant de progrès
+    </ion-card-content>
+  </ion-card>
+  <ion-button fill="outline" (click)="LoginPage()" class="btnL">Se connecter</ion-button>
+  <ion-button fill="outline" (click)="siginPage()" class="btnS">S'inscrire</ion-button>
 </ion-content>

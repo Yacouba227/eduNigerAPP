@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap");
+* {
+  font-family: "Signika Negative", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+img {
+  border-radius: 0px 0px 38% 38%;
+  margin-bottom: 2.5%;
+}
+.login-card {
+  margin: 0;
+  width: 100%;
+}
+.login-part {
+  margin-top: 12px;
+}
+.login-card ion-card-title {
+  font-size: 26px;
+}
+.login-card ion-card-content {
+  font-size: 20px;
+}
+.btn {
+  margin-bottom: 2%;
+}

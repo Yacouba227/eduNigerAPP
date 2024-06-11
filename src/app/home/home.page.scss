@@ -1,27 +1,32 @@
-#container {
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap");
+* {
+  font-family: "Signika Negative", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+ion-content {
+  --background: #aad7fc;
+}
+.home-content img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 0px 0px 35% 35%;
+}
+.home-content ion-card {
+  --background: #aad7fc;
   text-align: center;
-
+}
+.home-content ion-card-content{
+  font-size: 22px;
+}
+.home-content .btnL{
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  bottom: 2%;
+  right: 2%;
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+.home-content .btnS{
+  position: absolute;
+  bottom: 2%;
+  right: 42%;
 }

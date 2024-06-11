@@ -1,0 +1,54 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Sigin In</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="secondary">
+  <img
+    alt="Silhouette of mountains"
+    src="https://www.creativefabrica.com/wp-content/uploads/2020/02/10/Education-Logo-Graphics-1-10.jpg"
+  />
+  <ion-card class="login-card">
+    <ion-card-header>
+      <ion-card-title>Edu Niger</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Contente de vous recevoir chers apprenant parmis nous, eduNiger vous
+      souhaite la bienvenu.
+    </ion-card-content>
+    <ion-card-content class="login-part">
+      <h1>S'inscrire</h1>
+      <ion-item>
+        <ion-input
+          label="Email"
+          type="email"
+          placeholder="email@domain.com"
+        ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input
+          type="password"
+          label="Password"
+          placeholder="..............................."
+        >
+          <ion-input-password-toggle slot="end"></ion-input-password-toggle>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input
+          label="Telephone"
+          type="tel"
+          placeholder="888-888-888"
+        ></ion-input>
+      </ion-item>
+      <div class="radio-input">
+        <p>S'inscrire en tantque ?</p>
+        <ion-radio value="pineapple" labelPlacement="end">Apprenant</ion-radio>
+        <ion-radio value="pineapple" labelPlacement="end" >Enseignant</ion-radio>
+      </div>
+    </ion-card-content>
+    <ion-button expand="block" color="secondary" class="btn" (click)="niveauPage()">S'inscrire</ion-button>
+    <p>Vous avez déja un compte?<a href="">Login</a></p>
+  </ion-card>
+</ion-content>
